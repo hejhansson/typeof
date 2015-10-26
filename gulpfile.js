@@ -60,10 +60,13 @@ gulp.task('styles', function() {
 	.pipe(sass({ style: 'expanded' }))
 	.pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
 	.pipe(gulp.dest('css'))
-	.pipe(rename({suffix: '.min'}))
+	.pipe(rename({
+    basename: 'typeof',
+    suffix: '.min'
+  }))
 	.pipe(minifycss())
 	.pipe(gulp.dest('css'))
-	
+
 	.pipe(notify("SCSS minified"));
 });
 

@@ -81,8 +81,9 @@ footer ul li .btn, header ul li .btn {
 	border: $baseBorderWidth solid $btnColor;
 
 	&:hover {
-		color: $black;
-		border-color: black;
+		color: $white;
+		background: $secondaryColor;
+		border-color: $white;
 	}
 }
 

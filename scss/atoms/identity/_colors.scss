@@ -10,7 +10,7 @@ $olive: 		#3D9970;
 $green: 		#2ECC40;
 $lime: 			#01FF70;
 
-$yellow: 		rgb(240, 173, 78);	
+$yellow: 		rgb(240, 173, 78);
 $orange: 		#FF851B;
 $red: 			#FF4136;
 
@@ -30,8 +30,8 @@ $vimeoColor:		#1ab7ea;
 		COLORS — VARIABLES
 -------------------------------------------------------------- */
 
-$primaryColor:      #7DA1BF;
-$secondaryColor:    $yellow;
+$primaryColor:      #827055;
+$secondaryColor:    #A79E8B;
 
 $linkColor:			$primaryColor;
 $linkHoverColor:	darken($primaryColor, 12.5%);
@@ -43,7 +43,7 @@ $textColor:			$textGray;
 $headingColor:      $black;
 $ingressColor:      $black;
 
-$btnColor:			$gray;
+$btnColor:			$white;
 $btnColorSuccess:	$green;
 $btnColorDanger:	$red;
 $btnColorWarning:	$yellow;
@@ -55,11 +55,3 @@ $siteHeaderFontColor: $white;
 
 $blurbHeadingColor: $white;
 $blurbBackgroundColor: $black;
-
-
-
-
-
-
-
-

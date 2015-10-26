@@ -1,13 +1,13 @@
 .site-header {
-	border-bottom: $baseBorderWidth solid $silver;
-	padding: $basePadding/2 0;
+	padding: $basePadding 0 0 0;
+	background: $primaryColor;
 
 	.mobile-menu__icon {
 		display: none;
 	}
 
 	a, a:visited {
-		color: $black;
+		color: $white;
 		font-size: $baseFontSize - 2;
 
 		&:hover {
@@ -20,8 +20,13 @@
 		display: inline-block;
 		padding: $basePadding 0;
 		float: left;
+		margin-top: -17px;
+		img {
+			width: 140px;
+		}
 
 		a, a:visited {
+			font-size: 40px;
 			&:hover {
 				color: $linkHoverColor;
 			}
@@ -37,9 +42,12 @@
 			float: right;
 
 			li {
-				margin: 0 0 0 $baseMargin;
+				margin: 0 0 0 30px;
+				text-transform: uppercase;
+    		font-weight: 700;
 
 				a, a:visited {
+					font-size: 14px;
 					&:hover {
 						color: $linkHoverColor;
 					}

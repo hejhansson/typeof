@@ -6,3 +6,54 @@
 @media (min-width: $screen-md) {}
 @media (min-width: $screen-sm) {}
 @media (min-width: $screen-xs) {}
+
+
+.rect {
+		margin-top: 100px;
+    position: relative;
+    left: 50%;
+		margin-left: -16.5px;
+    width: 34px;
+    height: 4px;
+    border: 3px solid $secondaryColor;
+}
+
+.columns {
+	@extend .col-md-12;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+
+  -webkit-column-gap: 25px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 25px; /* Firefox */
+  column-gap: 25px;
+
+	@media (max-width: $screen-sm) {
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	  -moz-column-count: 1; /* Firefox */
+	  column-count: 1;
+	}
+}
+
+img.whatwedo {
+	@extend .mtl;
+	margin-left: -9px;
+	width: 120px;
+}
+
+.samarbete {
+	margin-top: 80px;
+	padding: 20px 40px;
+	color: $white;
+	background: $primaryColor;
+	border-radius: 3px;
+	h3 {
+		font-weight: 400;
+		margin-top: 8px;
+	}
+
+	.btn {
+		float: right;
+		margin-top: -31px;
+	}
+}
